@@ -19,7 +19,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: certificaterequests.cert-manager.io
 spec:
@@ -239,7 +238,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: certificates.cert-manager.io
 spec:
@@ -678,7 +676,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: challenges.acme.cert-manager.io
 spec:
@@ -2165,7 +2162,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: clusterissuers.cert-manager.io
 spec:
@@ -4091,7 +4087,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: issuers.cert-manager.io
 spec:
@@ -6016,7 +6011,6 @@ metadata:
     cert-manager.io/inject-ca-from-secret: cert-manager/cert-manager-webhook-ca
   labels:
     app: cert-manager
-    app.kubernetes.io/instance: cert-manager
     app.kubernetes.io/name: cert-manager
   name: orders.acme.cert-manager.io
 spec:
